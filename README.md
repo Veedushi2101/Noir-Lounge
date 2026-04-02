@@ -135,7 +135,7 @@ http://localhost:5173
 ---
 
 ## Admin Functionalities
-
+Accessible via /admin:
 * Update booking status in real time
 * Modify table availability
 * Perform CRUD operations on menu items
@@ -171,7 +171,7 @@ Before production:
 
 ## Future Improvements
 
-* Admin authentication system
+* Admin authentication and role-based access
 * Booking conflict handling
 * Payment integration
 * Advanced analytics and reporting
