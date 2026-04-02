@@ -112,7 +112,7 @@ const handleSubmit = async (e: React.FormEvent) => {
         updatedAt: serverTimestamp(),
         pendingBookingId: bookingRef.id
       });
-      console.log("✅ Table reserved:", table.name);
+      console.log("Table reserved:", table.name);
     } catch (error) {
       console.warn("Table update failed:", error);
     }

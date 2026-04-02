@@ -1,11 +1,11 @@
 import type { MenuItem } from "@/context/OrderContext"; // ✅ single source of truth
 
 export const categories = [
-  { id: 'coffees', name: 'Coffees', icon: '☕' },
-  { id: 'drinks', name: 'Drinks', icon: '🥤' },
-  { id: 'snacks', name: 'Snacks', icon: '🥨' },
-  { id: 'meals', name: 'Meals', icon: '🍽️' },
-  { id: 'desserts', name: 'Desserts', icon: '🍰' },
+  { id: 'coffees', name: 'Coffees' },
+  { id: 'drinks', name: 'Drinks'},
+  { id: 'snacks', name: 'Snacks' },
+  { id: 'meals', name: 'Meals' },
+  { id: 'desserts', name: 'Desserts' },
 ];
 
 // export interface MenuItem {

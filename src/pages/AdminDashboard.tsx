@@ -593,7 +593,7 @@ const [overviewFilter, setOverviewFilter] = useState<
           {/* Status cell */}
           <td className="p-4">
             <div className="flex items-center gap-2">
-              <StatusBadge status={table.status} size="sm" />
+              <StatusBadge status={table.status as "available" | "reserved" | "booked"} size="sm" />
               {isEditingTable && (
                 <select
                   className="bg-secondary border border-border rounded px-2 py-1 text-xs text-muted-foreground"

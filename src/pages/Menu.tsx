@@ -85,7 +85,6 @@ const Menu = () => {
                   selectedCategory === category.id && "gold-glow-sm"
                 )}
               >
-                <span className="mr-2">{category.icon}</span>
                 {category.name}
               </Button>
             ))}
